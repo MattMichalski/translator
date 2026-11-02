@@ -1,0 +1,58 @@
+.rowZ{
+    padding-left: 175px;
+}
+
+.keyboardContainer{
+    padding-left:175px;
+}
+
+body{
+    background: linear-gradient(to bottom, deepSkyBlue, #4682b4); 
+    background-attachment: fixed;
+}
+ #Translated{
+        resize: none;
+    }
+
+#textToBeTranslated{
+        resize: none;
+    }
+
+@media(max-width: 767px){
+    .keyboardContainer{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    #inputLanguage{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+     #outputLanguage{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+     #textToBeTranslated{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+     #Translated{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    #translateForm .flex-column{
+        gap: 4px;
+    }
+    .badge{
+        width: 100% !important;
+    }
+    .rowZ{
+        padding-left: 0;
+    }
+
+}
