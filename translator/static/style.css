@@ -18,10 +18,12 @@ body{
         resize: none;
     }
 
+
 @media(max-width: 767px){
     .keyboardContainer{
         display: none;
     }
+
 }
 
 @media(max-width: 767px){
