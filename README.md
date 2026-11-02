@@ -1,4 +1,7 @@
 # Translator
+
+I started this project in 2022 and initially used Flask, Python, HTML, and IBM's Watson for language translation. Watson has since then been deprecated and I needed a alternative way to revive this project. I redid the project in html and Javascript, added the swap and sound buttons, and made it mobile friendly. On desktop I have a keyboard layout that highlights when the text area is selected and the user is typing as an experiment with Javascript.
+
 A browser-based translator. Type text, pick the source and target languages,
 and translate — with a swap button and spoken playback built in.
 
